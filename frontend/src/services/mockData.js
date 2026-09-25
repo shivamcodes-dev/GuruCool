@@ -16,7 +16,8 @@ export const mentors = [
     ],
     languages: ["English", "Hindi"],
     hourlyRate: 800,
-    location: "Mumbai, Online",
+    location: "Mumbai",
+    sessionMode: "online",
     bio: "I believe every child has a unique learning style. My approach combines academic rigor with emotional intelligence to help children not just score better, but think better.",
     education: [
       {
@@ -38,6 +39,10 @@ export const mentors = [
     availability: ["Mon", "Wed", "Fri"],
     verified: true,
     featured: true,
+    mentorType: "child-development",
+    personality: ["patient", "calm", "concept-focused"],
+    psychologyTraining: true,
+    specialNeedsExperience: true,
   },
   {
     id: "2",
@@ -52,7 +57,8 @@ export const mentors = [
     focusAreas: ["Discipline", "Habit Building", "Speaking Skills"],
     languages: ["English", "Hindi", "Tamil"],
     hourlyRate: 600,
-    location: "Bangalore, Online",
+    location: "Bangalore",
+    sessionMode: "online",
     bio: "Academic excellence is a byproduct of good habits. I mentor students to build discipline and curiosity that lasts a lifetime.",
     education: [
       {
@@ -74,6 +80,10 @@ export const mentors = [
     availability: ["Tue", "Thu", "Sat"],
     verified: true,
     featured: true,
+    mentorType: "academic",
+    personality: ["strict", "motivational", "concept-focused"],
+    psychologyTraining: false,
+    specialNeedsExperience: false,
   },
   {
     id: "3",
@@ -88,7 +98,8 @@ export const mentors = [
     focusAreas: ["Communication", "Speaking Skills", "Confidence Building"],
     languages: ["English", "Malayalam", "Hindi"],
     hourlyRate: 500,
-    location: "Kochi, Online",
+    location: "Kochi",
+    sessionMode: "both",
     bio: "Communication is the bridge between knowledge and expression. I help children find their voice and use it with confidence.",
     education: [
       {
@@ -110,6 +121,10 @@ export const mentors = [
     availability: ["Mon", "Tue", "Thu"],
     verified: true,
     featured: false,
+    mentorType: "communication",
+    personality: ["friendly", "motivational", "calm"],
+    psychologyTraining: false,
+    specialNeedsExperience: false,
   },
   {
     id: "4",
@@ -124,7 +139,8 @@ export const mentors = [
     focusAreas: ["Concept-Based Learning", "Homework Support", "Discipline"],
     languages: ["English", "Gujarati", "Hindi"],
     hourlyRate: 700,
-    location: "Ahmedabad, Online",
+    location: "Ahmedabad",
+    sessionMode: "both",
     bio: 'I make STEM intuitive. When a child understands the "why" behind a concept, the "what" follows naturally.',
     education: [
       {
@@ -141,6 +157,10 @@ export const mentors = [
     availability: ["Wed", "Fri", "Sun"],
     verified: true,
     featured: false,
+    mentorType: "academic",
+    personality: ["concept-focused", "patient", "strict"],
+    psychologyTraining: false,
+    specialNeedsExperience: false,
   },
   {
     id: "5",
@@ -155,7 +175,8 @@ export const mentors = [
     focusAreas: ["Habit Building", "Confidence Building", "Homework Support"],
     languages: ["English", "Telugu", "Hindi"],
     hourlyRate: 450,
-    location: "Hyderabad, Online",
+    location: "Hyderabad",
+    sessionMode: "both",
     bio: "Primary years are the foundation of a child's entire academic journey. I make learning joyful and habits sustainable.",
     education: [
       {
@@ -173,6 +194,10 @@ export const mentors = [
     availability: ["Mon", "Wed", "Fri", "Sat"],
     verified: true,
     featured: true,
+    mentorType: "child-development",
+    personality: ["patient", "friendly", "calm"],
+    psychologyTraining: true,
+    specialNeedsExperience: true,
   },
   {
     id: "6",
@@ -192,7 +217,8 @@ export const mentors = [
     ],
     languages: ["English", "Hindi"],
     hourlyRate: 650,
-    location: "Pune, Online",
+    location: "Pune",
+    sessionMode: "online",
     bio: "Academic success is just one part of life. I help children develop the soft skills that determine long-term success.",
     education: [
       { degree: "MBA", institution: "IIM Bangalore", year: "2019" },
@@ -206,6 +232,282 @@ export const mentors = [
     availability: ["Tue", "Thu", "Sat"],
     verified: true,
     featured: false,
+    mentorType: "communication",
+    personality: ["motivational", "friendly", "strict"],
+    psychologyTraining: false,
+    specialNeedsExperience: false,
+  },
+  {
+    id: "7",
+    name: "Dr. Kavya Iyer",
+    title: "PhD Special Education, NIMH",
+    avatar:
+      "https://images.pexels.com/photos/5212317/pexels-photo-5212317.jpeg?auto=compress&cs=tinysrgb&w=400",
+    rating: 4.8,
+    reviews: 56,
+    experience: 11,
+    subjects: ["All Subjects", "Life Skills"],
+    focusAreas: ["Confidence Building", "Habit Building", "Homework Support"],
+    languages: ["English", "Tamil", "Hindi"],
+    hourlyRate: 750,
+    location: "Chennai",
+    sessionMode: "both",
+    bio: "Every child can learn — sometimes they just need a different path. I specialize in adapting teaching methods to each child's unique way of processing the world.",
+    education: [
+      {
+        degree: "PhD in Special Education",
+        institution: "NIMH Secunderabad",
+        year: "2014",
+      },
+      { degree: "M.Ed", institution: "Madras University", year: "2010" },
+    ],
+    achievements: [
+      "Certified in special education methodologies",
+      "Trained 50+ teachers in inclusive classroom practices",
+      "Published research on adaptive learning strategies",
+    ],
+    availability: ["Mon", "Tue", "Thu", "Fri"],
+    verified: true,
+    featured: false,
+    mentorType: "child-development",
+    personality: ["patient", "calm", "friendly"],
+    psychologyTraining: true,
+    specialNeedsExperience: true,
+  },
+  {
+    id: "8",
+    name: "Rohan Desai",
+    title: "M.Sc Physics, IIT Madras — Concept Specialist",
+    avatar:
+      "https://images.pexels.com/photos/8141602/pexels-photo-8141602.jpeg?auto=compress&cs=tinysrgb&w=400",
+    rating: 4.5,
+    reviews: 38,
+    experience: 4,
+    subjects: ["Physics", "Mathematics", "Science"],
+    focusAreas: ["Concept-Based Learning", "Homework Support", "Discipline"],
+    languages: ["English", "Marathi", "Hindi"],
+    hourlyRate: 550,
+    location: "Pune",
+    sessionMode: "online",
+    bio: 'I break down complex concepts into simple, relatable ideas. When a child says "oh, that makes sense!" — that\'s the moment I live for.',
+    education: [
+      { degree: "M.Sc in Physics", institution: "IIT Madras", year: "2020" },
+      {
+        degree: "B.Sc in Physics",
+        institution: "Fergusson College",
+        year: "2018",
+      },
+    ],
+    achievements: [
+      "Created a YouTube channel with 50k subscribers on concept-based learning",
+      "Mentored 100+ students in physics fundamentals",
+      "Workshop facilitator at 5 schools",
+    ],
+    availability: ["Mon", "Wed", "Fri"],
+    verified: true,
+    featured: false,
+    mentorType: "academic",
+    personality: ["concept-focused", "friendly", "motivational"],
+    psychologyTraining: false,
+    specialNeedsExperience: false,
+  },
+  {
+    id: "9",
+    name: "Fatima Sheikh",
+    title: "MA Psychology, Jamia Millia — Behavioural Mentor",
+    avatar:
+      "https://images.pexels.com/photos/5905858/pexels-photo-5905858.jpeg?auto=compress&cs=tinysrgb&w=400",
+    rating: 4.7,
+    reviews: 61,
+    experience: 7,
+    subjects: ["Life Skills", "Social Studies", "English"],
+    focusAreas: [
+      "Discipline",
+      "Habit Building",
+      "Confidence Building",
+      "Communication",
+    ],
+    languages: ["English", "Hindi", "Urdu"],
+    hourlyRate: 620,
+    location: "Delhi",
+    sessionMode: "both",
+    bio: "Behaviour is communication. I help children build the habits and self-awareness that lead to both academic success and emotional well-being.",
+    education: [
+      {
+        degree: "MA in Psychology",
+        institution: "Jamia Millia Islamia",
+        year: "2017",
+      },
+      {
+        degree: "BA in Psychology",
+        institution: "Delhi University",
+        year: "2015",
+      },
+    ],
+    achievements: [
+      "Certified behavioural therapist",
+      "Conducted 200+ parent counselling sessions",
+      "Designed habit-building curriculum adopted by 3 schools",
+    ],
+    availability: ["Tue", "Wed", "Thu", "Sat"],
+    verified: true,
+    featured: false,
+    mentorType: "child-development",
+    personality: ["patient", "calm", "motivational"],
+    psychologyTraining: true,
+    specialNeedsExperience: true,
+  },
+  {
+    id: "10",
+    name: "Karthik Venkat",
+    title: "B.Tech IIT Kharagpur — Math & Logic Coach",
+    avatar:
+      "https://images.pexels.com/photos/8439093/pexels-photo-8439093.jpeg?auto=compress&cs=tinysrgb&w=400",
+    rating: 4.4,
+    reviews: 29,
+    experience: 3,
+    subjects: ["Mathematics", "Computer Science", "Physics"],
+    focusAreas: [
+      "Concept-Based Learning",
+      "Homework Support",
+      "Speaking Skills",
+    ],
+    languages: ["English", "Tamil", "Telugu"],
+    hourlyRate: 400,
+    location: "Chennai",
+    sessionMode: "online",
+    bio: "Math is not about memorizing formulas — it's about thinking logically. I make math feel like a puzzle, not a punishment.",
+    education: [
+      {
+        degree: "B.Tech in Computer Science",
+        institution: "IIT Kharagpur",
+        year: "2021",
+      },
+    ],
+    achievements: [
+      "Mentored 60+ students in competitive math",
+      "Built an interactive math practice app",
+      "Top 1% in JEE Advanced 2017",
+    ],
+    availability: ["Mon", "Tue", "Thu", "Sun"],
+    verified: true,
+    featured: false,
+    mentorType: "academic",
+    personality: ["motivational", "concept-focused", "friendly"],
+    psychologyTraining: false,
+    specialNeedsExperience: false,
+  },
+  {
+    id: "11",
+    name: "Anita Joshi",
+    title: "M.Ed, Bangalore University — Primary Years Specialist",
+    avatar:
+      "https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg?auto=compress&cs=tinysrgb&w=400",
+    rating: 4.8,
+    reviews: 72,
+    experience: 8,
+    subjects: ["All Subjects (Primary)", "English", "Mathematics"],
+    focusAreas: [
+      "Habit Building",
+      "Confidence Building",
+      "Homework Support",
+      "Communication",
+    ],
+    languages: ["English", "Kannada", "Hindi"],
+    hourlyRate: 480,
+    location: "Bangalore",
+    sessionMode: "in-person",
+    bio: "The early years set the tone for everything that follows. I make learning feel like play, so children develop a love for learning that lasts.",
+    education: [
+      {
+        degree: "M.Ed in Primary Education",
+        institution: "Bangalore University",
+        year: "2016",
+      },
+      { degree: "B.Ed", institution: "Bangalore University", year: "2014" },
+    ],
+    achievements: [
+      "10 years teaching experience in primary schools",
+      "Trained in Montessori and Reggio Emilia methods",
+      "Parent-recommended for patience and warmth",
+    ],
+    availability: ["Mon", "Wed", "Fri"],
+    verified: true,
+    featured: false,
+    mentorType: "child-development",
+    personality: ["patient", "friendly", "calm"],
+    psychologyTraining: true,
+    specialNeedsExperience: false,
+  },
+  {
+    id: "12",
+    name: "Siddharth Rao",
+    title: "MA English Literature, JNU — Communication & Speaking Coach",
+    avatar:
+      "https://images.pexels.com/photos/8198052/pexels-photo-8198052.jpeg?auto=compress&cs=tinysrgb&w=400",
+    rating: 4.6,
+    reviews: 51,
+    experience: 6,
+    subjects: ["English", "Public Speaking", "Social Studies"],
+    focusAreas: ["Speaking Skills", "Communication", "Confidence Building"],
+    languages: ["English", "Telugu", "Hindi"],
+    hourlyRate: 520,
+    location: "Hyderabad",
+    sessionMode: "both",
+    bio: "Words shape the world. I help children express their ideas with clarity, confidence, and conviction — in the classroom and beyond.",
+    education: [
+      { degree: "MA in English Literature", institution: "JNU", year: "2018" },
+      {
+        degree: "BA in English",
+        institution: "Delhi University",
+        year: "2016",
+      },
+    ],
+    achievements: [
+      "Coached 40+ students to national-level debate finals",
+      "Former journalist turned mentor",
+      "Certified by Toastmasters International",
+    ],
+    availability: ["Tue", "Thu", "Sat", "Sun"],
+    verified: true,
+    featured: false,
+    mentorType: "communication",
+    personality: ["motivational", "friendly", "concept-focused"],
+    psychologyTraining: false,
+    specialNeedsExperience: false,
+  },
+];
+
+export const testimonials = [
+  {
+    id: "t1",
+    name: "Rohit Singh",
+    role: "Parent of Aarav (Class 8)",
+    avatar:
+      "https://images.pexels.com/photos/8439093/pexels-photo-8439093.jpeg?auto=compress&cs=tinysrgb&w=200",
+    rating: 5,
+    text: "My son used to struggle with confidence in class. Within three months at GuruCool, he started participating in debates and his grades improved by 25%. His mentor didn't just teach — she believed in him.",
+    location: "Mumbai",
+  },
+  {
+    id: "t2",
+    name: "Meera Patel",
+    role: "Parent of Ira (Class 7)",
+    avatar:
+      "https://images.pexels.com/photos/5905858/pexels-photo-5905858.jpeg?auto=compress&cs=tinysrgb&w=200",
+    rating: 5,
+    text: "What I love about GuruCool is the focus on habits, not just homework. Ira now sits down to study on her own without me having to remind her. That discipline is worth more than any grade.",
+    location: "Ahmedabad",
+  },
+  {
+    id: "t3",
+    name: "Anil Joshi",
+    role: "Parent of Kabir (Class 9)",
+    avatar:
+      "https://images.pexels.com/photos/6148101/pexels-photo-6148101.jpeg?auto=compress&cs=tinysrgb&w=200",
+    rating: 4.5,
+    text: "The mentor matching was spot on. Kabir's mentor understood his learning style from day one. He went from dreading physics to actually enjoying it. The concept-based approach made all the difference.",
+    location: "Bangalore",
   },
 ];
 
@@ -235,6 +537,42 @@ export const subjects = [
   "Tamil",
   "Public Speaking",
   "Life Skills",
+];
+
+export const mentorTypes = [
+  { value: "academic", label: "Academic Specialist" },
+  { value: "child-development", label: "Child Development" },
+  { value: "communication", label: "Communication & Speaking" },
+];
+
+export const personalityOptions = [
+  { value: "patient", label: "Patient" },
+  { value: "friendly", label: "Friendly" },
+  { value: "strict", label: "Strict" },
+  { value: "motivational", label: "Motivational" },
+  { value: "calm", label: "Calm" },
+  { value: "concept-focused", label: "Concept-Focused" },
+];
+
+export const locations = [
+  "Mumbai",
+  "Bangalore",
+  "Kochi",
+  "Ahmedabad",
+  "Hyderabad",
+  "Pune",
+  "Chennai",
+  "Delhi",
+];
+
+export const availabilityDays = [
+  "Mon",
+  "Tue",
+  "Wed",
+  "Thu",
+  "Fri",
+  "Sat",
+  "Sun",
 ];
 
 export const parentDashboardData = {
